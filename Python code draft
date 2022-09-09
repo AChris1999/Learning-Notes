@@ -1,0 +1,49 @@
+2022/9/9 Python learning
+The poem of Python 《Zen of Python》
+
+  import this #code
+  The Zen of Python, by Tim Peters
+
+  Beautiful is better than ugly.
+  Explicit is better than implicit.
+  Simple is better than complex.
+  Complex is better than complicated.
+  Flat is better than nested.
+  Sparse is better than dense.
+  Readability counts.
+  Special cases aren't special enough to break the rules.
+  Although practicality beats purity.
+  Errors should never pass silently.
+  Unless explicitly silenced.
+  In the face of ambiguity, refuse the temptation to guess.
+  There should be one-- and preferably only one --obvious way to do it.
+  Although that way may not be obvious at first unless you're Dutch.
+  Now is better than never.
+  Although never is often better than *right* now.
+  If the implementation is hard to explain, it's a bad idea.
+  If the implementation is easy to explain, it may be a good idea.
+  Namespaces are one honking great idea -- let's do more of those!
+  
+  """第一个小游戏：猜数字"""
+temp = input("猜数字；")
+guess = int(temp)
+if guess == 6:
+    print("猜对了！")
+    print("但也没奖励哈哈！")
+else:
+    print ("错，数字是6！")
+print("game over!")
+
+变量
+x = 1 #创建x变量并赋值为1
+x1 = 1 #创建x1变量并赋值为1,变量可以为字母数字组合，但必须字母打头
+六 = 6 #中文也可以作为变量名
+a = b = 0 #可以多个变量同时连续赋值
+x = 1
+y = 2
+x, y = y, x #x与y的值互换
+
+字符串
+single quotes # ''
+double quotes # ""
+Triple quotes # 
